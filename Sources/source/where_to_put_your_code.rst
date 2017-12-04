@@ -9,7 +9,9 @@ TL; DR
 
 If you have a collection of your own code you want access to for various projects:
 
-Make a "package" out of it so you can manage it in one place, and use it in other places.
+Make a "package" out of it so you can manage it in one place, and use it in other places.  A "package" is a specific structure and set of files that Python uses to manage your software.  The fastest way to get a correct package structure is with a templating system, such as cookiecutter: https://github.com/audreyr/cookiecutter
+
+The rest of this post will describe the guts of what cookiecutter creates for you.  You can create everything manually as described here, but you don't have to.
 
 Introduction
 ------------
